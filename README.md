@@ -1,14 +1,51 @@
 # Application Overview 
 
+![alt text](https://github.com/yoon172/WiscShop/blob/master/Readme%20Images/Dialogflow_Overview.JPG)
+
 This application uses DialogFlow, a software suite by Google that allows users to build a dialog-based interface. A fully functional agent modifies the application state of the server via commands. 
 
-The use of fulfillment which is an integration option of Dialogflow, connects the service with the agent. This allows the end user to communciate with the agent and the agent will be able to take action upon those dynamic commands. 
+The use of fulfillment which is an integration option of Dialogflow, connects the service with the agent. This allows the end user to communciate with the agent and the agent will be able to take action upon those dynamic commands. Webhook.js contains the methods that handle user input via the fufillment. 
+
+
+Here is an example of a Dialogflow interaction. 
+
+![alt text](https://github.com/yoon172/WiscShop/blob/master/Readme%20Images/Dialogflow_Login.JPG)
+
+
+![alt text](https://github.com/yoon172/WiscShop/blob/master/Readme%20Images/WiscShop_Login.JPG)
+
+The user is able to login with a username and password via the agent. 
+
+Navigation is also possible as well with agent commands:
+
+![alt text](https://github.com/yoon172/WiscShop/blob/master/Readme%20Images/Dialogflow_Hats.JPG)
+
+![alt text](https://github.com/yoon172/WiscShop/blob/master/Readme%20Images/WiscShop_Hats.JPG)
+
+![alt text](https://github.com/yoon172/WiscShop/blob/master/Readme%20Images/Dialogflow_SelectHat.JPG)
+
+![alt text](https://github.com/yoon172/WiscShop/blob/master/Readme%20Images/WiscShop_SelectHat.JPG)
+
+Other commands such as cart queries are also possible through Diagflow:
+
+![alt text](https://github.com/yoon172/WiscShop/blob/master/Readme%20Images/Dialogflow_CartValue.JPG)
+
+![alt text](https://github.com/yoon172/WiscShop/blob/master/Readme%20Images/WiscShop_CartValue.JPG)
+
+
+
+
+
+
+
 
 
 
 
 
 # WiscShop API 
+
+Created by Andrew Schoen
 
 The following API can be accessed at `https://mysqlcs639.cs.wisc.edu` (currently inactive)
 
