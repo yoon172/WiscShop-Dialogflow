@@ -1,6 +1,16 @@
-# WiscShop API
+# Application Overview 
 
-The following API can be accessed at `https://mysqlcs639.cs.wisc.edu`
+This application uses DialogFlow, a software suite by Google that allows users to build a dialog-based interface. A fully functional agent modifies the application state of the server via commands. 
+
+The use of fulfillment which is an integration option of Dialogflow, connects the service with the agent. This allows the end user to communciate with the agent and the agent will be able to take action upon those dynamic commands. 
+
+
+
+
+
+# WiscShop API 
+
+The following API can be accessed at `https://mysqlcs639.cs.wisc.edu` (currently inactive)
 
 | Endpoint                                       | Auth Required | Token Required | Get | Post | Put | Delete |
 |------------------------------------------------|---------------|----------------|-----|------|-----|--------|
