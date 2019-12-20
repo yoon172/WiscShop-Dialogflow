@@ -45,7 +45,7 @@ Other commands such as cart queries are also possible through Diagflow:
 
 # WiscShop API 
 
-Created by Andrew Schoen
+*Acknowledgement: **Andrew Schoen** - *TA who created WiscShop* - 
 
 The following API can be accessed at `https://mysqlcs639.cs.wisc.edu` (currently inactive)
 
